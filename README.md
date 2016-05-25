@@ -26,6 +26,9 @@ mvn clean install
 ###Deployment
 Deploy on the web server like Apache Tomcat
 
+###Technical Details
+This project is developed using Jersey REST Implementation, Spring and Maven.
+
 ---
 
 #REST API Design
