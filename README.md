@@ -3,7 +3,7 @@ Demo for REST API Project
 
 #Purpose
 ###Introduction
-This Application is used for managing the servers on the Cloud. On the Cloud, a Server can be created, the created server can be used for some activity and when the server is no longer required the server can be destroyed.
+This Application is used for managing the servers on the Cloud. A Server can be created on the cloud, the created server can be used for some activity and when the server is no longer required the server can be destroyed.
 
 ###Scope
 The scope of this project is to create the REST API for doing the below operations
