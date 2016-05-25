@@ -23,6 +23,23 @@ The scope of this project is to create the REST API for doing the below operatio
 ###How to build
 mvn clean install
 
+#REST API Design
+
+| Operation        | URI           | Method  | Success/Failure | Status Code|
+| ---------------- |:-------------:| -------:|----------------:|-----------:|
+| Get Servers      | /webapi/servers | GET |Success|200|
+||||Not Found|404|
+||||Failure|500|
+| Get Server By Id      | /webapi/servers/{serverId} | GET |Success|200|
+||||Not Found|404|
+||||Failure|500|
+| Create Server      | /webapi/servers | POST |Success|201|
+||||Wrong Data|400 or 415|
+||||Failure|500|
+| Destroy Server      | /webapi/servers/{serverId} | DELETE |Success|200 or 204|
+||||Not Found|404|
+||||Failure|500|
+
 ###Deployment
 Deploy on the web service like tomcat
 
