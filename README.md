@@ -45,8 +45,6 @@ Deploy on the web server like Apache Tomcat
 ||||Not Found|404|
 ||||Failure|500|
 
----
-
 ##Get Servers
 
 This webservice request is used to get all the server details that are available. The Output will be a JSON with the list of all the servers. 
